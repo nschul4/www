@@ -20,6 +20,7 @@ popd
 
 echo Syncing...
 
+rsync -a $BASE_DIR/draw_dist/*             ./phaser/draw              || true
 rsync -a $BASE_DIR/hauler_dist/*           ./phaser/hauler            || true
 rsync -a $BASE_DIR/lander_dist/*           ./phaser/lander            || true
 rsync -a $BASE_DIR/orbiter_dist/*          ./phaser/orbiter           || true
