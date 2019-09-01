@@ -16,4 +16,5 @@ console.log("running");
 
 // To run:
 // $ npm install finalhandler serve-static
-// $ node myapp.js
+// $ node server.js
+console.log("192.168.1.102:8000");
