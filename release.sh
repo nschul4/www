@@ -7,7 +7,7 @@ function err_trap {
 
 trap err_trap ERR
 
-BASE_DIR=~/dev/phaser/my-examples/
+BASE_DIR=~/dev/phaser-examples/
 
 echo Popping over to project directory.
 
