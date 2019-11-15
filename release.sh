@@ -22,6 +22,7 @@ echo Syncing...
 
 rsync -a $BASE_DIR/hauler_dist/*           ./phaser/hauler            || true
 rsync -a $BASE_DIR/lander_dist/*           ./phaser/lander            || true
+rsync -a $BASE_DIR/lander-util_dist/*      ./phaser/lander-util       || true
 rsync -a $BASE_DIR/orbiter_dist/*          ./phaser/orbiter           || true
 rsync -a $BASE_DIR/pointerevents_dist/*    ./phaser/pointerevents     || true
 rsync -a $BASE_DIR/polygondrop_dist/*      ./phaser/polygondrop       || true
