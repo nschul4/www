@@ -10,11 +10,13 @@ var server = http.createServer(function (req, res) {
     serve(req, res, done);
 });
 
-server.listen(8000, "192.168.1.102");
+var port = 8000;
+
+server.listen(port, "0.0.0.0");
 
 console.log("running");
 
 // To run:
 // $ npm install finalhandler serve-static
 // $ node server.js
-console.log("192.168.1.102:8000");
+console.log("http://localhost:" + port + "/");
