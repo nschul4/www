@@ -18,5 +18,5 @@ console.log("running");
 
 // To run:
 // $ npm install finalhandler serve-static
-// $ node server.js
+// $ node http_server.js
 console.log("http://localhost:" + port + "/");
